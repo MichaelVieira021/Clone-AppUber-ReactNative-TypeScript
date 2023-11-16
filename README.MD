@@ -1,14 +1,9 @@
-<div align = "center">
-<img height="300px" src = "./comparativo/enunciado.png">
-<br><br>
-
-</div> 
 
 # CLONE APLICATIVO UBER
 
 Desenvolvi um clone visual do aplicativo da Uber usando TypeScript, o projeto concentra-se em proporcionar semelhanças visuais notáveis, priorizando a recriação da experiência estética. 
 
-### Apresento abaixo as imagens comparativas e um vídeo demonstrativo:
+### Abaixo as imagens e um vídeo comparativo:
 
 ## Original:
 <div align="center">
@@ -26,10 +21,7 @@ Desenvolvi um clone visual do aplicativo da Uber usando TypeScript, o projeto co
 
 ## Video:
 O vídeo apresenta uma comparação entre os dois aplicativos, exibindo inicialmente a versão ORIGINAL seguida pelo clone que desenvolvi.
+<div align = "center">
 
-<div align="center">
-  <video width="60%" controls>
-    <source src="./comparativo/originalxClone.mp4" type="video/mp4">
-    Seu navegador não suporta o elemento de vídeo.
-  </video>
+# <a href="https://youtube.com/shorts/V2Y6ipummCQ?feature=share" target="_blank">Clique aqui para assistir</a>
 </div>
