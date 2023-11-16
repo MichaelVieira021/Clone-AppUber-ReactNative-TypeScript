@@ -49,16 +49,16 @@ export const Sugestoes = () => {
 
             <TouchableOpacity activeOpacity={0.5} style={styles.divOpcao}>
                 <View style={styles.containerImagem}>
-                    <Image source={imgEnvios} style={styles.imagem}></Image>
+                    <Image source={imgRoteiro} style={styles.imagem}></Image>
                 </View>
-                <Text style={styles.textContainerImagem}>Envios</Text>
+                <Text style={styles.textContainerImagem}>Roteiro</Text>
             </TouchableOpacity>
 
             <TouchableOpacity activeOpacity={0.5} style={styles.divOpcao}>
                 <View style={styles.containerImagem}>
-                    <Image source={imgRoteiro} style={styles.imagem}></Image>
+                    <Image source={imgEnvios} style={styles.imagem}></Image>
                 </View>
-                <Text style={styles.textContainerImagem}>Roteiro</Text>
+                <Text style={styles.textContainerImagem}>Envios</Text>
             </TouchableOpacity>
 
         </View>

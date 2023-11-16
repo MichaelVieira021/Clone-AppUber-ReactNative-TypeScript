@@ -3,12 +3,12 @@ import { Platform, StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
 
     container: {
-        flex: 1
+        flex: 1,
+        // backgroundColor: "#ffff"
     },
 
     //BUSCADOR-----------------------------------------------------------
     containerBuscar: {
-        backgroundColor: '#ffff',
         height: 88,
         width: '100%',
         alignItems: "center",

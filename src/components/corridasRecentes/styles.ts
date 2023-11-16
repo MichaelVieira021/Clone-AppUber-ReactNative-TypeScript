@@ -22,7 +22,7 @@ export const styles = StyleSheet.create({
     linhaDivisao:{
         height: 1, 
         width: "100%", 
-        backgroundColor: '#eeeeee', 
+        backgroundColor: '#eeeeee',  
         marginBottom: 12,
         marginTop: -12
     },
@@ -34,7 +34,7 @@ export const styles = StyleSheet.create({
 
     endereco:{
         fontSize: 14,
-        color: "#4b4b4b",
+        color: "#5b5b5b",
     },
 
 })

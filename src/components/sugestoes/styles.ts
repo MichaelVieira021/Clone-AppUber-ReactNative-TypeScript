@@ -1,4 +1,4 @@
-import { Platform, StyleSheet } from "react-native";
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   
@@ -34,7 +34,7 @@ export const styles = StyleSheet.create({
         justifyContent: "space-between",
         paddingBottom: 4,
         paddingTop:14
-},
+    },
 
     containerImagem: {
         width:45, 
@@ -44,7 +44,7 @@ export const styles = StyleSheet.create({
 
     textContainerImagem: {
         padding: 5, 
-        fontWeight: '600'
+        fontWeight: '500'
     },
 
     imagem: {
@@ -52,7 +52,4 @@ export const styles = StyleSheet.create({
         height: "100%", 
         resizeMode: 'contain'
     },
-
-
-
 })

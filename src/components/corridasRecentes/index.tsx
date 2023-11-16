@@ -8,14 +8,14 @@ export const CorridasRecentes = () => {
     const [corridaRecente, setCorridaRecente] = useState([
 
         {
-          destino: "Upa 24h Teresópolis",
-          endereco: "R. Tenente Luiz Meirelles - Bom Retiro - Teresópolis - RJ,25954-000"
+            destino: "Praça Ginda Bloch - Alto",
+            endereco: "- Alto - Teresópolis - RJ, 25953-235"
         },
-
+  
         {
-          destino: "Dom Atacadista", 
-          endereco: "Av. Almirante Lúcio Meira, 1095 - Várzea - Teresópolis - RJ,25953-008"
-        }
+            destino: "Localiza", 
+            endereco: "Avenida Feliciano Sodré, 138 - Varzea - Teresópolis - RJ,25963-081"
+        },
         
     ]);
 
@@ -32,7 +32,9 @@ export const CorridasRecentes = () => {
                             {index > 0 && <View style={styles.linhaDivisao} />}
                             <Text style={styles.destino} numberOfLines={1}>{item.destino}</Text>
                             <Text style={styles.endereco} numberOfLines={2}>
-                            {item.endereco.replace(/(.*?-.*?)-\s*(.*)/, '$1-\n$2')}
+                                {item.endereco.length > 38
+                                ? item.endereco.replace(/(.*?-.*?)-\s*(.*)/, '$1-\n$2')
+                                : item.endereco}
                             </Text>
                         </View>	
                     </View>

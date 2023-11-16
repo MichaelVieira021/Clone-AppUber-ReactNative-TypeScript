@@ -16,6 +16,7 @@ export const styles = StyleSheet.create({
     },
 
     textBuscar:{
+        width: 150,
         fontSize: 20,
         color: '#4c4c4c',
         fontWeight: '600', 
