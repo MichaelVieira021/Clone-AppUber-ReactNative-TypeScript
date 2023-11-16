@@ -19,11 +19,17 @@ Desenvolvi um clone visual do aplicativo da Uber usando TypeScript, o projeto co
 
 ## Clone:
 <div align="center">
-  <img height="300px" src="./comparativo/enunciado.png" style="max-width: 100%; margin-right: 10px;">
-  <img height="300px" src="./comparativo/enunciado.png" style="max-width: 100%; margin-right: 10px;">
-  <img height="300px" src="./comparativo/enunciado.png" style="max-width: 100%;">
+  <img height="300px" src="./comparativo/clonePrincipal.jpeg" style="max-width: 100%; margin-right: 10px;">
+  <img height="300px" src="./comparativo/cloneServicos.jpeg" style="max-width: 100%; margin-right: 10px;">
+  <img height="300px" src="./comparativo/cloneAtividades.jpeg" style="max-width: 100%;">
 </div>
 
 ## Video:
+O vídeo apresenta uma comparação entre os dois aplicativos, exibindo inicialmente a versão ORIGINAL seguida pelo clone que desenvolvi.
 
-<img height="300px" src = "./comparativo/enunciado.png">
+<div align="center">
+  <video width="60%" controls>
+    <source src="./comparativo/originalxClone.mp4" type="video/mp4">
+    Seu navegador não suporta o elemento de vídeo.
+  </video>
+</div>
